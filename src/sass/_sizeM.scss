@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+  .nav {
+    .nav-container {
+      .nav-menu {
+        position: static;
+        flex-direction: row;
+        justify-content: end;
+        gap: 60px;
+      }
+
+      .hamburger {
+        display: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
